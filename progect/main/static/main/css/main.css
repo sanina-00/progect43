@@ -1,4 +1,51 @@
 body{
-    background: red;
+    background: white;
 }
 
+aside {
+    float: left;
+    background-color: navy;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    border-right: 5px solid skyblue;
+
+
+}
+aside img{
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: aliceblue;
+}
+aside h3 {
+    margin-top: 50;
+    font-size: 35px;
+    
+    position: relative;
+    top: 30px;
+    color: aliceblue;
+}
+aside ul {list-style: none}
+aside ul li{
+    position: relative;
+    top: 30px;
+    color: aliceblue;
+    display: block;
+    margin-top: 20px ;
+}
+
+main .features {
+    float: left;
+    color: blue;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
