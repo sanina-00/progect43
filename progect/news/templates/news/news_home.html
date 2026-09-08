@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} news {% endblock %}
+
+{% block content %} 
+    <div class="features">
+        <h1>Новости</h1>
+        {% filter upper %}
+        <p> Если ты опишешь, КАК ИМЕННО ты пытаешься изменить расположение текста (вправо/влево/вниз/вверх), я дам точное решение под твой случай. Просто скинь HTML или опиши, что ты делаешь</p>
+        {% endfilter %}
+        <button class="btn btn-warning">На страницу про нас</button>
+
+        
+
+    </div>
+{% endblock %}

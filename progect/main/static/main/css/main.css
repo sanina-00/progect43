@@ -1,9 +1,11 @@
 body{
     background: white;
+    display: flex;      /* вместо float */
+    margin: 0;
 }
 
 aside {
-    float: left;
+    
     background-color: navy;
     width: 20%;
     padding: 2.5%;
@@ -14,7 +16,7 @@ aside {
 }
 aside img{
     width: 80px;
-    float: left;
+    
 }
 
 aside .logo {
@@ -43,7 +45,7 @@ aside ul li{
 }
 
 main .features {
-    float: left;
+    
     color: blue;
     margin-top: 100px;
     text-align: center;
