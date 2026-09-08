@@ -4,8 +4,21 @@
 
 {% block content %} 
     <div class="reatures">
-        <h1>Главная страница</h1>
-        <p> kdflklkf        oiefdfvc </p>
+        <h1>{{ title }}</h1>
+        {% filter upper %}
+        <p> kdflklkf     gjdlkfjglfjdlkgjkldfj   oiefdfvc </p>
+        {% endfilter %}
         <button class="btn btn-warning">На страницу про нас</button>
+
+        {% for el in values %}
+            {% if el == 'Hello' %}
+                <p>{{ el }}</p>
+            {% endif %}    
+        {% endfor %}
+
+        {% for el in obj %}
+            <P>{{ el }}</P>
+        {% endfor %}    
+
     </div>
 {% endblock %}
