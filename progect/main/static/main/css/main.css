@@ -36,6 +36,7 @@ aside h3 {
     color: aliceblue;
 }
 aside ul {list-style: none}
+
 aside ul li{
     position: relative;
     top: 30px;
@@ -59,3 +60,4 @@ main .features {
     margin: 20px 34%;
     text-align: left;
 }
+
